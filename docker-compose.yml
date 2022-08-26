@@ -50,7 +50,7 @@ services:
     # queue
     queue:
         container_name: laravel-tdd-queue
-        image: especializati/laravel9-app
+        image: wwanzeller/laravel9-app
         restart: unless-stopped
         command: "php artisan queue:work"
         volumes:
