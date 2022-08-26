@@ -14,7 +14,7 @@ abstract class ModelTestCase extends TestCase
     abstract protected function casts(): array;
 
     /**
-     * A basic unit test traits.
+     * Teste para verificação de traits necessários à aplicação.
      *
      * @return void
      */
