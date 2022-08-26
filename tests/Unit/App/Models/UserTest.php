@@ -8,7 +8,7 @@ use Laravel\Sanctum\HasApiTokens;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 
-class UserTest extends ModelTestCase
+final class UserTest extends ModelTestCase
 {
     /**
      * Teste para verificar a model user.
