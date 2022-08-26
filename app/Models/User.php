@@ -39,6 +39,15 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
+        'id' => 'string',
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * The attributes that should be false ou true.
+     *
+     * @var bool
+     */
+    public $incrementing = false;
+   
 }
