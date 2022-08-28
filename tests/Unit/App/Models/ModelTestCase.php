@@ -2,7 +2,6 @@
 
 namespace Tests\Unit\App\Models;
 
-
 use Illuminate\Database\Eloquent\Model;
 use PHPUnit\Framework\TestCase;
 
